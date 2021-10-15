@@ -16,8 +16,8 @@
   <img src="https://img.shields.io/github/languages/top/Kopamed/Raven-bPLUS" alt="Java"/>
 </p>
 
-Raven b+ is built on top of Raven b3, adding quality of life improvements, bug fixes, and much more.<br>
-Discord:<br>
+Raven b+ is built on top of Raven b3, adding quality of life improvements, bug fixes, and much more. DroidW4RE is a skid.<br>
+Discord (join or bad):<br>
 <a href="https://discord.gg/N4zn4FwPcz"><img src="https://invidget.switchblade.xyz/N4zn4FwPcz" alt="https://discord.gg/N4zn4FwPcz"/></a><br>
 
 # Installation
