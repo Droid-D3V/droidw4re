@@ -16,7 +16,7 @@ public class keystrokeCommand extends CommandBase {
    }
 
    public String getCommandUsage(ICommandSender sender) {
-      return "/keystrokesmod";
+      return "/keystrokes";
    }
 
    public int getRequiredPermissionLevel() {
