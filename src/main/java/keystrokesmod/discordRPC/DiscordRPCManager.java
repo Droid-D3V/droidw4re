@@ -56,8 +56,8 @@ public class DiscordRPCManager {
             case MINECRAFT:
                 updateMinecraftRPC();
                 break;
-            case RAVEN_BP:
-                updateRavenRPC();
+            case DROIDW4RE:
+                updateDroidRPC();
                 break;
         }
     }
@@ -67,7 +67,7 @@ public class DiscordRPCManager {
     @SubscribeEvent
     public void onJoin(EntityJoinWorldEvent event) {
         if (event.entity == Minecraft.getMinecraft().thePlayer) {
-            if (this.rpcMode == RPCMode.RAVEN_BP) {
+            if (this.rpcMode == RPCMode.DROIDW4RE) {
                 updateRavenRPC();
             }
         }
@@ -87,8 +87,8 @@ public class DiscordRPCManager {
     /*=====================================
       ==            RAVEN RPC            ==
       =====================================*/
-    public void updateRavenRPC() {
-        if (this.rpcMode == RPCMode.RAVEN_BP) {
+    public void updateDroidRPC() {
+        if (this.rpcMode == RPCMode.DROIDW4RE) {
             if (Minecraft.getMinecraft().thePlayer != null && Minecraft.getMinecraft().theWorld != null) {
                 int toggled_module = 0;
                 for (int i = 0; i < Ravenbplus.notAName.getm0dmanager().listofmods().size(); i++) {
